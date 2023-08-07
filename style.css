@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    width: 350px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.navbar-part2{
+    display: flex;
+    gap: 35px;
+}
+
+.navbar-part2 h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.navbar-part3{
+    margin-right: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-part3 button{
+    padding: 20px 35px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar-part3 .login{
+    background: transparent;
+}
+
+.navbar-part3 .getStarted{
+    color: black;
+}
+
+.heading{
+    margin-top: 2%;
+    position: absolute;
+    left: 24%;
+    z-index: 1;
+}
+
+.heading h1{
+    font-size: 150px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 5px;
+    z-index: 10;
+}
+
+.main h1:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.heading h1 a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 30px 55px;
+    background-color: #7E3836;
+    border-radius: 50px;
+}
+
+.img{
+    position: absolute;
+}
+
+.image-1{
+    height: 250px;
+    width: 200px;
+    top: 20%;
+    left: 8%;
+    border-radius: 10px;
+}
+
+.image-2{
+    height: 190px;
+    width: 260px;
+    top: 15%;
+    left: 65%;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.image-3{
+    height: 270px;
+    width: 220px;
+    top: 60%;
+    left: 75%;
+    border-radius: 10px;
+}
+
+.image-4{
+    height: 220px;
+    width: 320px;
+    top: 63%;
+    left: 20%;
+    border-radius: 10px;
+    z-index: 0;
+}
